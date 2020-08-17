@@ -9,6 +9,8 @@ RUN pip3 install jupyter
 RUN pip3 install jupyterlab
 RUN pip3 install colour
 RUN pip3 install seaborn
+RUN pip3 install xlrd
+
 
 # user id for jupyter
 ARG user_id=1000
